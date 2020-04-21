@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/single_row_namaeTV"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="@color/colorAccent"
+        android:textStyle="italic"
+        android:text="Dummy name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/single_row_addressTV"
+        android:layout_below="@id/single_row_namaeTV"
+        android:text="Dummy Address"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="italic"
+        />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/single_row_addressTV"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+</RelativeLayout>
